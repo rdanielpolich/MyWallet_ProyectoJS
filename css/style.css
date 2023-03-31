@@ -1,0 +1,92 @@
+@media screen and (min-width: 1024px) {
+    .icono {
+        width: 40px;
+        height: 40px;
+        color: white;
+        background: #000;
+    }
+    
+    .logo{
+        height: 5%;
+        width: 5%;
+        padding: 10px;
+        }
+
+    .card-balance{
+            width: 50%;
+        }
+    .img{
+            width: 80px;
+            height: 80px;
+            margin-top: 15px;
+        }
+        .tamaño-card{
+            
+            font-size: x-large;
+        }
+    
+    
+}
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+    .icono {
+        width: 40px;
+        height: 40px;
+        color: white;
+        background: #000;
+    }
+    
+    .logo{
+        height: 10%;
+        width: 10%;
+        padding: 10px;
+        }
+        .card-balance{
+            width: 50%;
+        }
+    .img{
+            width: 40px;
+            height: 40px;
+            margin-top: 15px;
+        }
+        .tamaño-card{
+            font-size: large;
+        }
+}
+@media screen and (max-width: 767px) {
+    .icono {
+        width: 40px;
+        height: 40px;
+        color: white;
+        background: #000;
+    }
+    
+    .logo{
+        height: 20%;
+        width: 20%;
+        padding: 10px;
+        }
+    .img{
+            width: 80px;
+            height: 80px;
+            margin-top: 15px;
+        }
+        main{
+            font-size: x-small;
+        }
+    .tamaño-card{
+        width: 80%;
+        font-size: medium;
+    }
+
+    }
+    .tabla-responsive{
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+
+
+body{
+    font-family: 'Orbitron', sans-serif;
+}
+
